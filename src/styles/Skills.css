@@ -1,0 +1,62 @@
+/* Skills.css */
+
+.skills-container {
+    text-align: center;
+    margin: 0; /* Remove margin */
+    background-color: black; /* Set background to black */
+    padding: 20px; /* Add padding around the container */
+    /* border-radius: 10px; Optional: Rounded corners for the container */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default to 4 columns */
+    gap: 10px; /* Space between the cards */
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+.skill-card {
+    background-color: #333; /* Dark gray background for each skill card */
+    border: 2px solid yellow; /* You can change this color if needed */
+    border-radius: 10px; /* Adjusted for a smaller radius */
+    padding: 10px; /* Decrease padding for smaller boxes */
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+    width: 150px; /* Set a fixed width of 150px */
+    height: 100px; /* Optional: Set a fixed height if needed */
+    margin: 0 auto; /* Center the boxes within the grid cell */
+}
+
+/* Increase icon size and change color to white */
+.skill-card svg {
+    font-size: 40px; /* Adjust icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+    color: white; /* Set icon color to white */
+}
+
+.skill-card p {
+    margin: 5px 0 0; /* Adjust margin for smaller text spacing */
+    font-weight: bold;
+    color: white; /* Set text color to white */
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    background-color: #444; /* Slightly lighter background on hover */
+}

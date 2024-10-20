@@ -1,0 +1,102 @@
+/* Project Section */
+.projects-section {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+/* Make sure the carousel takes 80% width of the screen */
+.carousel {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Set a fixed height for the carousel items */
+.carousel-item {
+    height: 400px; /* Adjust this value to set the desired fixed height */
+}
+
+/* Adjust row content */
+.carousel-item .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Ensure row fills the height of the carousel item */
+}
+
+/* Set image to occupy 30% of the carousel item */
+.project-image {
+    max-width: 100%;
+    height: 100%; /* Fill the fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+/* Align text to fill remaining space */
+.carousel-item .col-md-8 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+}
+
+/* Adjust heading and text inside the caption */
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Adjust the indicators and controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+}
+
+/* Positioning Carousel Controls */
+.carousel-control-prev, 
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    z-index: 2;
+    padding: 0;
+}
+
+.carousel-control-prev {
+    left: -2%;
+}
+
+.carousel-control-next {
+    right: -2%;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+/* Adjust indicator button style */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+/* Active indicator style */
+.carousel-indicators .active {
+    background-color: #fff;
+}
+

@@ -1,0 +1,26 @@
+.footer {
+    position: relative; /* Ensures that it stays at the bottom of the page */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the social icons */
+    gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+    color: white; /* Icon color */
+    font-size: 30px; /* Icon size */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.footer p {
+    margin-top: 10px; /* Space above the paragraph */
+    font-size: 14px; /* Font size for the paragraph */
+}

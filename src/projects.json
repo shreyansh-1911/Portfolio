@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Nirvana (Website)",
+      "image": "/Images/nirvana.png",  
+      "description": [
+        "Technology Used : HTML, CSS, JS, NodeJs",
+        "Developed Nirvana Alive website using HTML, CSS, JavaScript for frontend and Node.js for backend.",
+        "Implemented features such as Audio therapy, Reading Therapy, Yoga therapy, Talking therapy, and feedback to the admin.",
+        "Hosted the site: https://nirvanalive.netlify.app/#services."
+      ]
+    },
+    {
+      "title": "Data Analysis on SDG 8",
+      "image": "/Images/sdg 8.png", 
+      "description": [
+        "Technology Used : Python, Numpy, Pandas, Matplotlib",
+        "Conducted extensive research on SDG-8, focusing on the impact of tourism, entrepreneurship, and financial services on economic development and the job market in India.",
+        "Utilized advanced analytical techniques like matrices, graphs, linear regression, and correlation."
+      ]
+    },
+    {
+      "title": "Alumni Management System",
+      "image": "/Images/alumni.png", 
+      "description": [
+        "Technology Used : HTML, CSS, JS, MySQL, XAMPP",
+        "Implemented a comprehensive database management system using MySQL to facilitate real-time updates of alumni information and events by administrators.",
+        "Created a user-friendly website interface allowing students seamless access to alumni data, career details, and upcoming events.",
+        "Enhanced engagement and connectivity within the college community."
+      ]
+    },
+    {
+      "title": "Auto Pass Pro",
+      "image": "/Images/automation.png",  
+      "description": [
+        "Technology Used : Arduino",
+        "Designed and implemented an automation project utilizing microcontroller technology, IR sensors, servo motors, LCD display, and ultrasonic sensors.",
+        "Developed a system where vehicle detection triggers automatic door opening while displaying vehicle distance on an LCD screen."
+      ]
+    },
+    {
+      "title": "Vehicle Fuel Expenses",
+      "image": "/Images/tkinter.png",  
+      "description": [
+        "Technology Used : Python, Tkinter",
+        "Created a GUI using Tkinter focused on fuel consumption calculation.",
+        "Utilized preset petrol and diesel prices alongside user-input vehicle mileage and distance parameters.",
+        "Calculated fuel usage and corresponding cost based on selected fuel type,vehicle, and distance in kilometers."
+      ]
+    }
+  ]
+  
