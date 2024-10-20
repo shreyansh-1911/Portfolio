@@ -16,7 +16,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:5000/send-email', {
+    fetch('https://backend-bhfv.onrender.com/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
