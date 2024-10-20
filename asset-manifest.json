@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/frontend/static/css/main.50e0f647.css",
-    "main.js": "/frontend/static/js/main.1d1201c4.js",
+    "main.js": "/frontend/static/js/main.7b0e7ca4.js",
     "static/media/fa-solid-900.ttf": "/frontend/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/tkinter.png": "/frontend/static/media/tkinter.5d9c49bfe74f05be792b.png",
+    "static/media/cdot.jpg": "/frontend/static/media/cdot.83e5f28ede65319daee3.jpg",
     "static/media/fa-brands-400.ttf": "/frontend/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/sdg 8.png": "/frontend/static/media/sdg 8.4c0442e811ff6f2da1aa.png",
     "static/media/fa-solid-900.woff2": "/frontend/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/automation.png": "/frontend/static/media/automation.0209dc736ae206ff616d.png",
     "static/media/fa-brands-400.woff2": "/frontend/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/aboutme.jpg": "/frontend/static/media/aboutme.3215af501696290022f6.jpg",
+    "static/media/alumni.png": "/frontend/static/media/alumni.d030359e0235b00e9bfb.png",
     "static/media/fa-regular-400.ttf": "/frontend/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/me.jpg": "/frontend/static/media/me.ddfa3035cd9ae00feb6d.jpg",
     "static/media/fa-regular-400.woff2": "/frontend/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/frontend/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/frontend/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/frontend/index.html",
     "main.50e0f647.css.map": "/frontend/static/css/main.50e0f647.css.map",
-    "main.1d1201c4.js.map": "/frontend/static/js/main.1d1201c4.js.map"
+    "main.7b0e7ca4.js.map": "/frontend/static/js/main.7b0e7ca4.js.map"
   },
   "entrypoints": [
     "static/css/main.50e0f647.css",
-    "static/js/main.1d1201c4.js"
+    "static/js/main.7b0e7ca4.js"
   ]
 }
