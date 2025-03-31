@@ -1,0 +1,5 @@
+.navbar-nav .nav-link.active {
+    color: #ffcc00 !important; /* Example: Highlight the active section */
+    font-weight: bold;
+  }
+  

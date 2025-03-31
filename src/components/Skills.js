@@ -25,7 +25,7 @@ const skillsData = [
 
 const Skills = () => {
     return (
-        <div id='skills' className="skills-container">
+        <div id='skills' className="skills-container pt-5" style={{ paddingTop: '100px' }}>
             <h2 className='text-white mb-3'>Skills</h2>
             <div className="skills-grid">
                 {skillsData.map((skill, index) => (
@@ -38,5 +38,6 @@ const Skills = () => {
         </div>
     );
 };
+
 
 export default Skills;

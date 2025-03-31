@@ -4,34 +4,20 @@ const About = () => {
   return (
     <section id="about" className="about-section py-5" style={{ backgroundColor: '#000000' }}>
       <div className="container">
-        <div className="row">
-          {/* Left-side photo */}
-          <div className="col-md-6 text-center">
-            <img
-              src={'/Images/aboutme.jpg'}
-              alt="Shreyansh Goyal"
-              className="img-fluid rounded"
-              style={{ maxWidth: '300px' }} // Adjust size as needed
-            />
-          </div>
-          {/* Right-side text */}
-          <div className="col-md-6 text-white d-flex align-items-center">
-            <div>
-              <h2>About Me</h2>
-              <p>
-                I am Shreyansh Goyal, a passionate technology enthusiast from Jaipur, Rajasthan. Currently
-                pursuing a Bachelor of Technology at JK Lakshmipat University, I have a strong foundation in
-                programming languages such as Java, Python, and C. My experience as a Teaching Assistant and my
-                internship at CDOT, New Delhi, have honed my skills in web development and problem-solving.
-              </p>
-              <p>
-                I thrive on creating innovative solutions, as demonstrated in my academic projects, which
-                include a comprehensive Alumni Management System and an automation project utilizing
-                microcontroller technology. I actively engage in competitive programming and coding challenges,
-                having solved numerous problems on LeetCode and achieved a 2-star rating on CodeChef,
-                showcasing my commitment to continuous learning and growth in the field of technology.
-              </p>
-            </div>
+        <div className="row justify-content-center">
+          {/* Centered text */}
+          <div className="col-md-8 text-white text-center">
+            <h2 className="mb-4">About Me</h2>
+            <p className="mb-3">
+              I am Shreyansh Goyal, a Computer Science student at JK Lakshmipat University with a specialization in Artificial Intelligence. Passionate about technology, I have hands-on experience in full-stack web development, IoT, and machine learning.
+            </p>
+            <p className="mb-3">
+              During my internship at C-DOT, I developed a real-time telecom dashboard, enhancing my expertise in secure authentication, API integration, and data synchronization. My projects include a Smart Shelves system leveraging IoT sensors for stock monitoring and a MERN-based Food Ordering App with secure payments.
+            </p>
+            <p className='mb-0'>
+              As a Teaching Assistant, I helped students master C programming, reinforcing my ability to explain complex concepts. Always eager to solve problems, I actively participate in coding challenges and continuously expand my technical skill set.
+
+            </p>
           </div>
         </div>
       </div>

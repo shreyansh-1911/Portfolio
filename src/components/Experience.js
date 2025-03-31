@@ -1,4 +1,5 @@
 import React from 'react';
+import cdot from '../Images/cdot.jpg'
 
 const Experience = () => {
   return (
@@ -46,7 +47,7 @@ const Experience = () => {
             {/* CDOT Image */}
             <div className="text-center mb-4">
               <img
-                src={'/Images/cdot.jpg'}
+                src={cdot}
                 alt="CDOT Logo"
                 className="img-fluid rounded"
                 style={{ width: '100%', maxWidth: '300px', height: 'auto' }}

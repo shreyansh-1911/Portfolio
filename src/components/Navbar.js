@@ -1,27 +1,30 @@
 import React, { useEffect } from 'react';
+import '../styles/Navbar.css';
+
 
 const Navbar = () => {
   const handleScroll = () => {
     const sections = document.querySelectorAll('section');
-    const scrollPosition = window.scrollY;
-
+    const scrollPosition = window.scrollY + window.innerHeight / 2; // Adjust detection
+  
     sections.forEach((section) => {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
-
-      // Check if the current scroll position is within the section
+  
       if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-        const activeLink = document.querySelector('.navbar-nav .active');
-        if (activeLink) activeLink.classList.remove('active');
-        
+        document.querySelectorAll('.navbar-nav a').forEach((link) => {
+          link.classList.remove('active'); // Remove active class from all links
+        });
+  
         const currentLink = document.querySelector(`.navbar-nav a[href="#${section.id}"]`);
-        if (currentLink) currentLink.classList.add('active');
+        if (currentLink) currentLink.classList.add('active'); // Add active class to current link
       }
     });
   };
+  
 
   const scrollToSection = (e) => {
-    e.preventDefault(); // Prevent default anchor click behavior
+    e.preventDefault(); // Prevent default anchor click behavior  
     const targetId = e.currentTarget.getAttribute('href');
     const targetSection = document.querySelector(targetId);
 

@@ -10,20 +10,24 @@ import Projects from './components/Project'; // Example component
 import Contact from './components/Contact'; // Example component
 import Footer from './components/Footer';
 import './App.css'; // Import your CSS here
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <div id="home"><Home /></div>
-      <div id="about"><About /></div>
-      <div id="skills"><Skills /></div>
-      <div id="experience"><Experience /></div>
-      <div id="projects"><Projects /></div>
-      <div id="contact"><Contact /></div>
-      <div id="contact"><Footer /></div>
+      <section id="home"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="skills"><Skills /></section>
+      <section id="experience"><Experience /></section>
+      <section id="projects"><Projects /></section>
+      <section id="contact"><Contact /></section>
+      <section id="footer"><Footer /></section>
     </Router>
+
   );
 };
 

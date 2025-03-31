@@ -1,6 +1,8 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
 import '../styles/Home.css';
+import me from '../Images/me.jpg'
+
 
 const Home = () => {
   return (
@@ -29,7 +31,7 @@ const Home = () => {
 
             {/* Download CV Button */}
             <div className="download-cv">
-              <a href="https://drive.google.com/file/d/1Je_Q_Y7hF5XHvbgKZXErc0DJZllKnnE7/view?usp=sharing" target="_blank" className="cv-button">
+              <a href="https://drive.google.com/file/d/1_xfjD_u8vQgv1KRBS1oRR4L0dzcboz2R/view?usp=sharing" target="_blank" className="cv-button">
                 Download CV
               </a>
             </div>
@@ -38,7 +40,7 @@ const Home = () => {
           {/* Right-side image */}
           <div className="col-md-6 text-center">
             <img
-              src="/Images/me.jpg"
+              src={me}
               alt="Shreyansh Goyal"
               className="img-fluid rounded-circle floating-image"
               style={{ maxWidth: '100%', height: 'auto' }} // Ensure responsiveness
